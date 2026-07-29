@@ -1,0 +1,15 @@
+[
+  {
+    "id": "1",
+    "brand": "Samsung",
+    "model": "Galaxy A10",
+    "pdf": "samsung_a10.pdf",
+    "parts": [
+      { "name": "شاشة (LCD)", "price": "450", "currency": "EGP", "notes": "شاشة أصلية" },
+      { "name": "بطارية", "price": "180", "currency": "EGP", "notes": "" }
+    ],
+    "codes": [
+      { "title": "كود الفورمات", "code": "*2767*3855#", "description": "فورمات كامل" }
+    ]
+  }
+]
