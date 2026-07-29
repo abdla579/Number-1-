@@ -1,0 +1,26 @@
+name: mobile_repair_app
+description: "تطبيق مساعد لفنيي صيانة الموبايل - قطع غيار، أسعار، أكواد، ومخططات"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  path_provider: ^2.1.2
+  flutter_pdfview: ^1.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/parts_data.json
+    - assets/schematics/
